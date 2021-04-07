@@ -14,11 +14,6 @@
 	background-color: #f2f2f2;
 }
 
-.header__square-pic {
-	height: 568px;
-	width: 568px;
-}
-
 .table__cell_theme_dark {
 	width: 200px;
 	color: white;
@@ -102,7 +97,7 @@
 	font-weight: normal;
 	margin: 0;
 	width: 175px;
-	color: #2f80ed
+	color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -230,14 +225,7 @@
 
 .section-title_theme_dark {
 	margin-top: 0;
-}
-
-.section-title_theme_dark {
-	color: white;
-}
-
-.section-subtitle_theme_dark {
-	color: white;
+  color: white;
 }
 
 .table__cell_theme_dark {
