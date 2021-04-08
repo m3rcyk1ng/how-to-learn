@@ -19,7 +19,7 @@
 	z-index: 5;
 }
 
-.logo__place_header {
+.logo_place_header {
 	height: 32px;
 	width: 183px;
 	margin-top: 30px;
@@ -31,7 +31,7 @@
 	margin: auto;
 	margin-left: 64px;
 	line-height: 96px;
-	width: 730px;
+	max-width: 730px;
 	font-size: 102px;
 	font-weight: 700;
 	z-index: 4;
@@ -39,8 +39,9 @@
 
 .header__subtitle {
 	position: absolute;
+	margin: 0 0 30px;
 	line-height: 25px;
-	width: 388px;
+	max-width: 388px;
 	font-size: 18px;
 	font-weight: normal;
 	bottom: 0px;
@@ -103,9 +104,10 @@
 	line-height: 34px;
 	margin: 0 0 30px;
 	font-weight: normal;
+	
 }
 
-.two-columns__paragraph:nth-of-type(3n) {
+.two-columns__paragraph:last-of-type {
 	margin-bottom: 0;
 }
 
@@ -138,6 +140,12 @@
 	margin: 20px 0 0;
 	text-align: center;
 }
+
+ul {
+	Margin:0;
+	Padding:0;
+	list-style-type: none;
+	} 
 
 .table {
 	display: flex;
@@ -178,7 +186,7 @@
 .feynman__title {
 	margin: 0 auto 70px;
 	text-align: center;
-	width: 648px;
+	max-width: 648px;
 	line-height: 1.15;
 	font-size: 120px;
 	font-weight: 700;
@@ -247,6 +255,10 @@
 	z-index: -1;
 }
 
+.section-subtitle_theme_dark {
+color:white;
+}
+
 .footer {
 	display: flex;
 	min-height: 350px;
@@ -292,8 +304,8 @@
 }
 
 .footer__column-heading {
+	margin:0;
 	font-weight: 700;
-	margin-bottom: 20px;
 	margin-top: 0;
 	line-height: 30px;
 	font-size: 18px;
@@ -310,9 +322,15 @@
 }
 
 .footer__column-links {
+	margin: 20px auto 16px;
 	font-size: 18px;
-	margin-bottom: 16px;
 	line-height: 30px;
 	list-style-type: none;
 	padding-left: 0;
+	
 }
+
+
+div, p, h1, h2, h3, ul, li {
+	outline: 1px red dashed;
+	}
