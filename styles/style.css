@@ -327,10 +327,4 @@ color:white;
 	line-height: 30px;
 	list-style-type: none;
 	padding-left: 0;
-	
 }
-
-
-div, p, h1, h2, h3, ul, li {
-	outline: 1px red dashed;
-	}
