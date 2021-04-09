@@ -39,12 +39,12 @@
 
 .header__subtitle {
 	position: absolute;
-	margin: 0 0 30px;
+	bottom: 30px;
+	margin:0;
 	line-height: 25px;
 	max-width: 388px;
 	font-size: 18px;
 	font-weight: normal;
-	bottom: 0px;
 	left: 64px;
 	z-index: 3;
 }
@@ -140,17 +140,14 @@
 	text-align: center;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
 .table {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 1100px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
 .table__cell {
