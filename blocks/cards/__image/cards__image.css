@@ -1,6 +1,6 @@
 .cards__image {
   height: 160px;
   width: 160px;
-  clip-path: circle(25%);
+  border-radius: 50%;
   padding: 60px 40px 43px;
 }
