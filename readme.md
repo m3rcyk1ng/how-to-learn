@@ -1,4 +1,4 @@
-[![Build Status](https://www.slivki.by/ximage/sale/1594799938_imagetools3.png)](https://praktikum.yandex.ru/profile/web/)
+[![Build Status](https://i.imgur.com/jpIZtTM.png)](https://praktikum.yandex.ru/profile/web/)
 # Проектная работа №1/№2
 ## Описание проекта
 
